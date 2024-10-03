@@ -4,4 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Agrega aquí tus estilos globales */
+/* Estilos globales */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  @apply text-justify;
+}
+
+.page-content {
+  @apply p-4;
+}
+
+/* Otros estilos globales que quieras aplicar */

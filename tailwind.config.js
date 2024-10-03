@@ -15,7 +15,7 @@ module.exports = {
         text: 'var(--color-text)',
       },
       fontFamily: {
-        sans: ['var(--font-ubuntu)', ...fontFamily.sans],
+        ubuntu: ['Ubuntu', ...fontFamily.sans],
       },
     },
   },
